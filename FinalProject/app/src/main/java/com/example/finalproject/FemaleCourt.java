@@ -25,5 +25,7 @@ ArrayList<Female> femaleslist = new ArrayList<>();
             femaleslist.add(courtloca);
             femaleslist.add(courtprice);
 
+            FemaleAdapter femaleAdapter = new FemaleAdapter( this,0, femaleslist);
+
     }
 }
