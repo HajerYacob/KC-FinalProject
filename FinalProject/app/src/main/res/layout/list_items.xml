@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagecourt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/courtname"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/syne"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/courtloca"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/syne"
+        android:text="TextView"
+        android:textColor="#000E8A"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/courtprice"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="98dp"
+        android:textSize="14sp"
+        android:textColor="#000E8A"
+        android:fontFamily="@font/syne"
+        android:text="TextView" />
+
+
+</RelativeLayout>

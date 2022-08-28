@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".courtType">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="180dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/corner" />
+
+
+    <TextView
+        android:id="@+id/choose_the"
+        android:layout_width="266dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/syne"
+        android:gravity="center_horizontal|top"
+        android:text="choose court type"
+        android:textAppearance="@style/choose_the_" />        />
+
+
+    <ImageView
+        android:id="@+id/female"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="110dp"
+        app:srcCompat="@drawable/indoor" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="180dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="510dp"
+        app:srcCompat="@drawable/corner2" />
+
+    <ImageView
+        android:id="@+id/male"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="350dp"
+        app:srcCompat="@drawable/outdoor" />
+
+</RelativeLayout>

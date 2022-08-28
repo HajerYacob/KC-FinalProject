@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_sma"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3274E7"
+    android:backgroundTint="#3274E7"
+    android:clipToOutline="true">
+
+    <ImageView
+        android:id="@+id/some_id"
+        android:layout_width="225dp"
+        android:layout_height="238dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="193dp"
+        android:background="@drawable/foto" />
+
+    <TextView
+        android:id="@+id/padel"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="39dp"
+        android:fontFamily="@font/syne"
+        android:gravity="center_horizontal|top"
+        android:text="padel"
+        android:textAppearance="@style/padel" />
+
+    <TextView
+        android:id="@+id/find_padel_"
+        android:layout_width="201dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/syne"
+        android:gravity="center_horizontal|top"
+        android:text="find padel court easier"
+        android:textAppearance="@style/find_padel_" />
+
+
+</RelativeLayout>

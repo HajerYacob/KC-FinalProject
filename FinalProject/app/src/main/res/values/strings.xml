@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <string name="padel">
+
+padel
+</string>
+
+    <string name="find_padel_">
+
+find padel court easier
+</string>
+
+    <string name="choose_the_gender">
+
+Choose the gender
+</string>
+
+</resources>
