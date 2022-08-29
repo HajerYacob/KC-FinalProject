@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1E2FF"
+    tools:context=".FemaleDetails">
+
+    <ImageView
+        android:id="@+id/brandimmage"
+        android:layout_width="335dp"
+        android:layout_height="276dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+       />
+
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="320dp"
+        android:gravity="center_horizontal|top"
+        android:text="text"
+        android:textAppearance="@style/padel_distr" />
+
+    <TextView
+        android:id="@+id/pricedel"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="390dp"
+        android:gravity="center_horizontal|top"
+        android:text="Price"
+        android:textAppearance="@style/time_work" />
+
+
+    <TextView
+        android:id="@+id/Phonenumber"
+        android:layout_width="194dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="460dp"
+        android:gravity="center_horizontal|top"
+        android:text="Phone Number"
+        android:textAppearance="@style/time_work" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="148dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="535dp"
+        android:gravity="center_horizontal|top"
+        android:text="Addrees"
+        android:textAppearance="@style/time_work" />
+
+    <Button
+        android:id="@+id/phonebutton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="457dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="159dp" />
+</RelativeLayout>

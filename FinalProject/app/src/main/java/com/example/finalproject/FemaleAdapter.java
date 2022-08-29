@@ -33,8 +33,12 @@ public class FemaleAdapter extends ArrayAdapter<Female> {
         TextView loca = view.findViewById(R.id.courtloca);
         TextView price = view.findViewById(R.id.courtprice);
 
+        name.setText(currentfemale.getCourtname());
+        loca.setText(currentfemale.getCourtloca());
+        price.setText(currentfemale.getCourtprice());
+        picfruit.setImageResource(currentfemale.getImagecourt());
 
 
-        return super.getView(position, convertView, parent);
+        return view;
     }
 }

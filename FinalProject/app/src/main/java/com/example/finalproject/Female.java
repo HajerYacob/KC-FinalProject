@@ -1,6 +1,8 @@
 package com.example.finalproject;
 
-public class Female {
+import java.io.Serializable;
+
+public class Female implements Serializable {
 
     private int imagecourt ;
     public String courtname ;

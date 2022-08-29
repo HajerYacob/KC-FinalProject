@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D1E2FF"
     tools:context=".FemaleCourt">
 
 
@@ -11,15 +12,18 @@
         android:id="@+id/listview"
         android:layout_width="400dp"
         android:layout_height="550dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginStart="5dp">
+        android:layout_marginStart="5dp"
+        android:background="#D1E2FF"
+        android:layout_marginTop="70dp">
 
     </ListView>
 
     <SearchView
-        android:layout_width="match_parent"
+        android:id="@+id/searchview"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        />
+        android:layout_marginStart="30dp"
+        android:background="@color/white"
+        android:layout_marginTop="10dp" />
 
 </RelativeLayout>
