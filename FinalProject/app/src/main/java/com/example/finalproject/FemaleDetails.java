@@ -2,7 +2,10 @@ package com.example.finalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -36,8 +39,19 @@ public class FemaleDetails extends AppCompatActivity {
     b1.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            
+
+            Intent intent = new Intent(Intent.ACTION_DIAL);
+            intent.setData(Uri.parse("tel: 97770597"));
+            startActivity(intent);
         }
     });
+
+
+ // intent to SMS page
+         Button b2 = findViewById(R.id.smspagebutton);
+         Intent i = new Intent(FemaleDetails.this,emailpage.class);
+         startActivity(i);
+
+
     }
 }

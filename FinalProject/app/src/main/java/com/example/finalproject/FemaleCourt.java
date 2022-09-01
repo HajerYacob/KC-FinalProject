@@ -20,6 +20,12 @@ SearchView searchView ;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_female_court);
 
+// bundle
+    Bundle bundle = getIntent().getExtras();
+
+
+
+
 // data source
         Female imagecourt = new Female( R.drawable.academy, " Play Padel Academy ", "location: kaifan ","price: 60 kd ");
         Female courtname = new Female ( R.drawable.vamos, "Vamos Indoor", "location: Shuwaikh ","price: 55 kd ");

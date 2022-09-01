@@ -14,6 +14,13 @@ find padel court easier
     <string name="choose_the_gender">
 
 Choose the gender
+
 </string>
+
+    <string name="appname">
+  <a href="https://goo.gl/maps/4B6y1ZWV9Y8xMCj49"> Google Map </a>
+
+    </string>
+
 
 </resources>

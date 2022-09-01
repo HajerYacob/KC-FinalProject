@@ -12,8 +12,7 @@
         android:layout_width="335dp"
         android:layout_height="276dp"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="20dp"
-       />
+        android:layout_marginTop="15dp" />
 
     <TextView
         android:id="@+id/brand"
@@ -22,7 +21,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="97dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/syne"
         android:gravity="center_horizontal|top"
         android:text="text"
         android:textAppearance="@style/padel_distr" />
@@ -34,11 +34,34 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="390dp"
+        android:layout_marginTop="370dp"
         android:gravity="center_horizontal|top"
         android:text="Price"
+        android:textSize="18sp"
         android:textAppearance="@style/time_work" />
 
+    <TextView
+        android:id="@+id/settext"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/syne"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/phonebutton"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#84ADF5"
+        android:text="phone"
+        app:strokeColor="@color/black" />
 
     <TextView
         android:id="@+id/Phonenumber"
@@ -47,10 +70,12 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="-3dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="440dp"
         android:gravity="center_horizontal|top"
-        android:text="Phone Number"
-        android:textAppearance="@style/time_work" />
+        android:text="Phone Number :"
+        android:textAppearance="@style/time_work"
+        android:textSize="18sp"
+        />
 
     <TextView
         android:id="@+id/address"
@@ -59,17 +84,41 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="3dp"
-        android:layout_marginTop="535dp"
+        android:layout_marginTop="515dp"
         android:gravity="center_horizontal|top"
-        android:text="Addrees"
+        android:text="Addrees :"
+        android:textSize="18sp"
         android:textAppearance="@style/time_work" />
 
+
+    <TextView
+        android:id="@+id/map"
+        android:layout_width="180dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="175dp"
+        android:autoLink="all"
+        android:fontFamily="@font/syne"
+        android:gravity="top"
+        android:linksClickable="true"
+        android:text="https://goo.gl/maps/4B6y1ZWV9Y8xMCj49"
+        android:textColor="#84ADF5" />
+
+
     <Button
-        android:id="@+id/phonebutton"
-        android:layout_width="100dp"
-        android:layout_height="40dp"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="457dp"
-        android:layout_marginEnd="137dp"
-        android:layout_marginBottom="159dp" />
+        android:id="@+id/smspagebutton"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginBottom="39dp"
+        android:backgroundTint="#fff"
+        android:gravity="center"
+        android:text="Next"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        tools:ignore="TouchTargetSizeCheck" />
 </RelativeLayout>
