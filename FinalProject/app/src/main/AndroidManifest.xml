@@ -4,8 +4,7 @@
     package="com.example.finalproject">
 
     <uses-permission android:name="android.permission.SEND_SMS" />
-    <uses-permission android:name="android.permission.RECEIVE_SMS" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
 
     <application
         android:allowBackup="true"
@@ -45,8 +44,9 @@
             </intent-filter>
         </activity>
 
-        <receiver
-            android:name=".SMSreceiving"
+
+
+        <receiver android:name=".SmsReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />

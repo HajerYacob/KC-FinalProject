@@ -1,4 +1,4 @@
-package com.example.finalproject;
+ /*package com.example.finalproject;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.telephony.SmsMessage;
 import android.widget.Toast;
 
-public class SMSreceiving extends BroadcastReceiver {
+class SmsReceiver extends BroadcastReceiver {
     @Override
         public void onReceive(Context context, Intent intent) {
 
@@ -37,6 +37,6 @@ public class SMSreceiving extends BroadcastReceiver {
 
     }
 
-
+*/
 
 
