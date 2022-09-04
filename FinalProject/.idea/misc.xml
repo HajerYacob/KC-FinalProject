@@ -3,18 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/FinalProject/app/src/main/res/drawable/finapage.xml" value="0.163" />
         <entry key="..\:/FinalProject/app/src/main/res/drawable/rectangle_2.xml" value="0.2025" />
         <entry key="..\:/FinalProject/app/src/main/res/drawable/searchview.xml" value="0.1235" />
         <entry key="..\:/FinalProject/app/src/main/res/drawable/vecter.xml" value="0.1095" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_court_type.xml" value="0.25" />
-        <entry key="..\:/FinalProject/app/src/main/res/layout/activity_emailpage.xml" value="0.25" />
+        <entry key="..\:/FinalProject/app/src/main/res/layout/activity_emailpage.xml" value="0.22" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_female_court.xml" value="0.22" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_female_details.xml" value="0.22" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_gender.xml" value="0.25" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/FinalProject/app/src/main/res/layout/activity_male_court.xml" value="0.2" />
+        <entry key="..\:/FinalProject/app/src/main/res/layout/activity_male_court.xml" value="0.15" />
+        <entry key="..\:/FinalProject/app/src/main/res/layout/activity_male_details.xml" value="0.2" />
+        <entry key="..\:/FinalProject/app/src/main/res/layout/activity_padelclub.xml" value="0.2" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/list_item.xml" value="0.2" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/list_items.xml" value="0.2809364548494983" />
+        <entry key="..\:/FinalProject/app/src/main/res/layout/viewpager_item.xml" value="0.21" />
       </map>
     </option>
   </component>

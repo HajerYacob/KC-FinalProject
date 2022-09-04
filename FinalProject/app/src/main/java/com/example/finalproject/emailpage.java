@@ -6,11 +6,8 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import android.Manifest;
-import android.app.PendingIntent;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.se.omapi.Session;
 import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.Button;
@@ -18,40 +15,36 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.text.BreakIterator;
-import java.util.Properties;
-
 public class emailpage extends AppCompatActivity {
-
-    EditText editTextphone , editTextmessage ;
+    TextView editTextphone ;
+    EditText  editTextmessage ;
     Button send ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_emailpage);
-
+/*
 // bundel detalis
         Bundle bun = getIntent().getExtras();
+*/
 
-
-        EditText editTextphone = findViewById(R.id.edittextphoneno);
-        EditText editTextmessage = findViewById(R.id.editTextTextSMS);
-        Button send = findViewById(R.id.buttonsend);
+        editTextphone = findViewById(R.id.edittextphoneno);
+         editTextmessage = findViewById(R.id.editTextTextSMS);
+         send = findViewById(R.id.buttonsend);
 
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(ContextCompat.checkSelfPermission(emailpage.this, Manifest.permission.SEND_SMS)
                 ==PackageManager.PERMISSION_GRANTED){
-                    SendSMS ();
+                                     SendSMS ();
                 }else {
                     ActivityCompat.requestPermissions( emailpage.this,new String[]{Manifest.permission.SEND_SMS},
                     100);
                 }
             }
         });
-
     }
 
     @Override

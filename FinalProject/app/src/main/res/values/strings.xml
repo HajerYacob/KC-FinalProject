@@ -17,10 +17,16 @@ Choose the gender
 
 </string>
 
-    <string name="appname">
+    <string name="GoogleMap">
   <a href="https://goo.gl/maps/4B6y1ZWV9Y8xMCj49"> Google Map </a>
 
     </string>
+
+
+    <string name="a_desc" >  Padel game is the لاestid game ever</string>
+    <string name="b_desc">my name is Hajer </string>
+    <string name="c_desc"> i have 18 years old </string>
+
 
 
 </resources>

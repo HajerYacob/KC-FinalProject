@@ -16,7 +16,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="92dp"
-        android:layout_marginTop="193dp"
+        android:layout_marginTop="240dp"
         android:background="@drawable/foto" />
 
     <TextView
@@ -26,11 +26,14 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="138dp"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="50dp"
         android:fontFamily="@font/syne"
         android:gravity="center_horizontal|top"
         android:text="padel"
-        android:textAppearance="@style/padel" />
+        android:textSize="45sp"
+        android:textColor="@color/white"
+
+/>
 
     <TextView
         android:id="@+id/find_padel_"
@@ -39,7 +42,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="105dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="106dp"
         android:fontFamily="@font/syne"
         android:gravity="center_horizontal|top"
         android:text="find padel court easier"

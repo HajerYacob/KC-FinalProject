@@ -20,7 +20,7 @@ public class FemaleDetails extends AppCompatActivity {
 
 //intent data source
         Bundle bundle = getIntent().getExtras();
-         Female deliveryfruit = (Female) bundle.getSerializable(" female ");
+         Female deliveryfruit = (Female) bundle.getSerializable(" Female ");
 
         ImageView brandimage = findViewById(R.id.brandimmage);
         TextView brand  = findViewById(R.id.brand);
@@ -49,10 +49,15 @@ public class FemaleDetails extends AppCompatActivity {
 
  // intent to SMS page
          Button b2 = findViewById(R.id.smspagebutton);
-         Intent i = new Intent(FemaleDetails.this,emailpage.class);
-         startActivity(i);
+         b2.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
 
+                 Intent i = new Intent(FemaleDetails.this,emailpage.class);
+                 startActivity(i);
 
+             }
+         });
 
     }
 }

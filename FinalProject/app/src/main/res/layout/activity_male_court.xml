@@ -1,9 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MaleCourt">
+    android:background="#D1E2FF"
+    android:fillViewport="true"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MaleCourt">
+
+
+        <android.widget.SearchView
+            android:id="@+id/searchview"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/searchview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/nation"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/nation"
+            android:contentDescription="@string/padel"
+            app:layout_constraintBottom_toTopOf="@+id/padelgar"
+            app:layout_constraintEnd_toEndOf="@+id/padelclub"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/padelclub"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.506" />
+
+        <ImageButton
+            android:id="@+id/padelgar"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="484dp"
+            android:background="@drawable/padelgar"
+            android:contentDescription="@string/padel"
+            app:layout_constraintEnd_toEndOf="@+id/padelblu"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/padelblu"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/padeldistrict"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="608dp"
+            android:background="@drawable/districtmale"
+            android:contentDescription="@string/padel"
+            app:layout_constraintEnd_toEndOf="@+id/padelgar"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/padelgar"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/padelblu"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/blu"
+            android:contentDescription="@string/padel"
+            app:layout_constraintEnd_toEndOf="@+id/nation"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/nation"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/padelclub"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="104dp"
+            android:background="@drawable/padelclub"
+            android:contentDescription="@string/padel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.384"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/lestpadel"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="736dp"
+            android:background="@drawable/letsmale"
+            android:contentDescription="@string/padel"
+            app:layout_constraintEnd_toEndOf="@+id/padelgar"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/padelgar"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+

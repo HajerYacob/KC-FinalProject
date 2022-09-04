@@ -26,8 +26,7 @@
         android:layout_marginTop="65dp"
         android:fontFamily="@font/syne"
         android:gravity="center_horizontal|top"
-        android:text="choose court type"
-        android:textAppearance="@style/choose_the_" />        />
+        android:text="choose court type"/>
 
 
     <ImageView

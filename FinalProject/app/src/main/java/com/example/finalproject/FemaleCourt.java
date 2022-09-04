@@ -20,17 +20,20 @@ SearchView searchView ;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_female_court);
 
-// bundle
+        /*
     Bundle bundle = getIntent().getExtras();
+
+         */
+
 
 
 
 
 // data source
-        Female imagecourt = new Female( R.drawable.academy, " Play Padel Academy ", "location: kaifan ","price: 60 kd ");
-        Female courtname = new Female ( R.drawable.vamos, "Vamos Indoor", "location: Shuwaikh ","price: 55 kd ");
-        Female courtloca = new Female( R.drawable.district, " Padel District ", "location: Farwaniya  ","price: 60 kd  ");
-        Female courtprice = new Female( R.drawable.lets, " Let’s padel ", "location: kaifan ","price: 40 kd  ");
+        Female imagecourt = new Female( R.drawable.academy, " Play Padel Academy ", "location: kaifan "," 60 kd ");
+        Female courtname = new Female ( R.drawable.vamos, "Vamos Indoor", "location: Shuwaikh "," 55 kd ");
+        Female courtloca = new Female( R.drawable.district, " Padel District ", "location: Farwaniya  "," 60 kd  ");
+        Female courtprice = new Female( R.drawable.lets, " Let’s padel ", "location: kaifan "," 40 kd  ");
 
 
             femaleslist.add(imagecourt);
@@ -50,7 +53,7 @@ SearchView searchView ;
                 Female currentfemale = femaleslist.get(position);
 
                 Intent i = new Intent(FemaleCourt.this, FemaleDetails.class);
-                i.putExtra(" female ",  currentfemale);
+                i.putExtra(" Female ",  currentfemale);
 
                 startActivity(i);
             }
@@ -83,8 +86,6 @@ SearchView searchView ;
                   return false;
               }
           });
-
-
 
 
 
