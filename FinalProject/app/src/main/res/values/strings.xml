@@ -23,10 +23,18 @@ Choose the gender
     </string>
 
 
-    <string name="a_desc" >  Padel game is the لاestid game ever</string>
-    <string name="b_desc">my name is Hajer </string>
-    <string name="c_desc"> i have 18 years old </string>
-
+    <string name="a_desc">  location: Bneid AL qar
+                               price: 40 kd  </string>
+    <string name="b_desc"> location: Bneid AL qar
+                             price: 40 kd </string>
+    <string name="c_desc">location: kaifan
+                             price: 40 kd </string>
+    <string name="d_desc"> location: Shuwaikh
+                             price: 40 kd </string>
+    <string name="e_desc"> location: Farwaniya
+                             price: 65 kd </string>
+    <string name="f_desc"> location: kaifan
+                             price: 70 kd </string>
 
 
 </resources>

@@ -31,28 +31,32 @@
                     android:layout_width="wrap_content"
                     android:layout_height="250dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/district" />
+                    android:src="@drawable/blu" />
 
 
                 <TextView
+                    android:id="@+id/tvHeading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/tvHeading"
                     android:layout_below="@id/ivimage"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:text="Baked"
-                    android:textColor="@color/black"
+                    android:textColor="#000E8A"
                     android:textSize="26dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/tvDesc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/tvDesc"
                     android:layout_below="@id/tvHeading"
-                    android:layout_margin="8dp"
-                    android:text="@string/GoogleMap"/>
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/a_desc"
+                    android:textSize="12sp" />
 
             </RelativeLayout>
 

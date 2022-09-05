@@ -12,9 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:fontFamily="cursive"
-        android:text="A La Carte Kitchen"
-        android:textColor="@color/black"
+        android:fontFamily="@font/syne"
+        android:text=" Male Court "
+        android:textColor="#000E8A"
         android:textSize="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -33,14 +33,15 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Next  >"
-        android:backgroundTint="@color/teal_200"
+        android:backgroundTint="#415DF8"
         android:layout_marginBottom="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
+        android:background="@drawable/button"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

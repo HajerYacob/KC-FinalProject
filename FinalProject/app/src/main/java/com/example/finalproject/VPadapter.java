@@ -23,8 +23,9 @@ public class VPadapter  extends RecyclerView.Adapter<VPadapter.ViewHolder>{
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.viewpager_item, parent, false);
+                .inflate(R.layout.viewpager_item,parent,false);
 
         return new ViewHolder(view);
     }
@@ -32,22 +33,21 @@ public class VPadapter  extends RecyclerView.Adapter<VPadapter.ViewHolder>{
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
-        ViewPagerItem viewpagerItem = viewPagerItemArrayList.get(position);
+        ViewPagerItem viewPagerItem = viewPagerItemArrayList.get(position);
 
-        holder.imageView.setImageResource(viewpagerItem.imageID);
-        holder.tcHeading.setText(viewpagerItem.heading);
-        holder.tvDesc.setText(viewpagerItem.description);
+        holder.imageView.setImageResource(viewPagerItem.imageID);
+        holder.tcHeading.setText(viewPagerItem.heading);
+        holder.tvDesc.setText(viewPagerItem.description);
 
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return viewPagerItemArrayList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-
 
         ImageView imageView;
         TextView tcHeading, tvDesc;

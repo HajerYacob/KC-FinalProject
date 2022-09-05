@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run(){
                 try {
-                    sleep(2000);
+                    sleep(2800);
                     Intent splash=new Intent(getApplicationContext(),gender.class);
                     startActivities(new Intent[]{splash});
                     finish();

@@ -22,6 +22,7 @@ public class MaleCourt extends AppCompatActivity {
      ImageButton b = findViewById(R.id.nation);
      ImageButton c = findViewById(R.id.padelblu);
      ImageButton d = findViewById(R.id.padeldistrict);
+     ImageButton f = findViewById(R.id.padelgar);
      ImageButton e = findViewById(R.id.lestpadel);
 
 
@@ -35,6 +36,51 @@ public class MaleCourt extends AppCompatActivity {
         startActivity(a);
     }
 });
+
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent a = new Intent(MaleCourt.this,maleDetails.class);
+                startActivity(a);
+            }
+        });
+
+        c.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent a = new Intent(MaleCourt.this,maleDetails.class);
+                startActivity(a);
+            }
+        });
+
+        d.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent a = new Intent(MaleCourt.this,maleDetails.class);
+                startActivity(a);
+            }
+        });
+
+        f.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent a = new Intent(MaleCourt.this,maleDetails.class);
+                startActivity(a);
+            }
+        });
+
+        e.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent a = new Intent(MaleCourt.this,maleDetails.class);
+                startActivity(a);
+            }
+        });
 
 
 
