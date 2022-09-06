@@ -23,17 +23,17 @@ Choose the gender
     </string>
 
 
-    <string name="a_desc">  location: Bneid AL qar
+    <string name="a_desc">  location: Bneid AL qar ,
                                price: 40 kd  </string>
-    <string name="b_desc"> location: Bneid AL qar
+    <string name="b_desc"> location: Bneid AL qar ,
                              price: 40 kd </string>
-    <string name="c_desc">location: kaifan
+    <string name="c_desc">location: kaifan ,
                              price: 40 kd </string>
-    <string name="d_desc"> location: Shuwaikh
+    <string name="d_desc"> location: Shuwaikh ,
                              price: 40 kd </string>
-    <string name="e_desc"> location: Farwaniya
+    <string name="e_desc"> location: Farwaniya ,
                              price: 65 kd </string>
-    <string name="f_desc"> location: kaifan
+    <string name="f_desc"> location: kaifan ,
                              price: 70 kd </string>
 
 

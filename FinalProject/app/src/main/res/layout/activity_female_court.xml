@@ -22,7 +22,7 @@
         android:id="@+id/searchview"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="35dp"
         android:layout_marginTop="13dp"
         android:background="@drawable/searchview" />
 

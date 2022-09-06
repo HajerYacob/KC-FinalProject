@@ -14,14 +14,15 @@
         android:layout_marginStart="35dp"
         android:layout_marginTop="15dp" />
 
+
     <TextView
         android:id="@+id/brand"
-        android:layout_width="221dp"
+        android:layout_width="314dp"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="97dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginLeft="-25dp"
+        android:layout_marginTop="284dp"
         android:fontFamily="@font/syne"
         android:gravity="center_horizontal|top"
         android:text="text"
@@ -34,22 +35,26 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="369dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="378dp"
         android:gravity="center_horizontal|top"
         android:text="Price"
         android:textAppearance="@style/time_work"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/phonebutton"
-        android:layout_width="150dp"
-        android:layout_height="48dp"
+        android:layout_width="177dp"
+        android:layout_height="37dp"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginTop="425dp"
-        android:layout_marginEnd="63dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="186dp"
         android:backgroundTint="#84ADF5"
         android:text="phone"
+        android:textColor="@color/black"
         app:strokeColor="@color/black" />
 
     <TextView
@@ -58,13 +63,13 @@
         android:layout_height="34dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="-3dp"
-        android:layout_marginTop="435dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="439dp"
         android:gravity="center_horizontal|top"
         android:text="Phone Number :"
+        android:textStyle="bold"
         android:textAppearance="@style/time_work"
         android:textSize="18sp" />
-
 
     <TextView
         android:id="@+id/address"
@@ -72,22 +77,23 @@
         android:layout_height="36dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="2dp"
-        android:layout_marginTop="500dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="501dp"
         android:gravity="center_horizontal|top"
         android:text="Addrees :"
         android:textAppearance="@style/time_work"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/map"
-        android:layout_width="165dp"
-        android:layout_height="wrap_content"
+        android:layout_width="109dp"
+        android:layout_height="17dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="61dp"
+        android:layout_marginStart="70dp"
         android:layout_marginTop="515dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginBottom="110dp"
+        android:layout_marginBottom="127dp"
         android:layout_toEndOf="@+id/address"
         android:autoLink="all"
         android:fontFamily="@font/syne"
@@ -98,13 +104,16 @@
 
     <Button
         android:id="@+id/smspagebutton"
-        android:layout_width="105dp"
-        android:layout_height="48dp"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="160dp"
+        android:layout_marginStart="135dp"
         android:layout_marginTop="580dp"
-        android:layout_marginBottom="39dp"
-        android:backgroundTint="#fff"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="#84ADF5"
         android:gravity="center"
         android:text="Next"
         android:textColor="@color/black"

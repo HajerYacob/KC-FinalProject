@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/FinalProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/FinalProject/app/src/main/res/drawable/backgroundbox.xml" value="0.138" />
+        <entry key="..\:/FinalProject/app/src/main/res/drawable/backgroundbutton.xml" value="0.138" />
         <entry key="..\:/FinalProject/app/src/main/res/drawable/button.xml" value="0.1" />
         <entry key="..\:/FinalProject/app/src/main/res/drawable/custom_progress.xml" value="0.173" />
         <entry key="..\:/FinalProject/app/src/main/res/drawable/finapage.xml" value="0.163" />
@@ -15,13 +17,15 @@
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_court_type.xml" value="0.25" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_emailpage.xml" value="0.22" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_female_court.xml" value="0.22" />
-        <entry key="..\:/FinalProject/app/src/main/res/layout/activity_female_details.xml" value="0.22" />
+        <entry key="..\:/FinalProject/app/src/main/res/layout/activity_female_details.xml" value="0.33" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_gender.xml" value="0.25" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/FinalProject/app/src/main/res/layout/activity_male_court.xml" value="0.33" />
+        <entry key="..\:/FinalProject/app/src/main/res/layout/activity_male_court.xml" value="0.22" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_male_details.xml" value="0.2" />
+        <entry key="..\:/FinalProject/app/src/main/res/layout/activity_otppage.xml" value="0.25" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_padelclub.xml" value="0.2" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/activity_qrcode.xml" value="0.25" />
+        <entry key="..\:/FinalProject/app/src/main/res/layout/activity_verity_otp.xml" value="0.25" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/list_item.xml" value="0.2" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/list_items.xml" value="0.2809364548494983" />
         <entry key="..\:/FinalProject/app/src/main/res/layout/viewpager_item.xml" value="0.21" />
