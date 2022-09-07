@@ -75,13 +75,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:background="@null"
+                android:hint="000"
                 android:imeOptions="actionDone"
                 android:importantForAutofill="no"
                 android:inputType="number"
                 android:textColor="@color/black"
                 android:textSize="16sp"
-                android:hint=""
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck" />
 
 
 
@@ -101,12 +102,30 @@
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
 
+            <TextView
+                android:id="@+id/skipbut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:text="Skip"
+                android:textColor="#7E7878"/>
+
+
+
             <ProgressBar
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_gravity="center"
                 android:visibility="gone"
                 android:id="@+id/probar1"/>
+
 
 
         </FrameLayout>

@@ -48,12 +48,4 @@
         android:text="find padel court easier"
         android:textAppearance="@style/find_padel_" />
 
-    <ProgressBar
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:id="@+id/progress"
-        android:indeterminateOnly="false"
-        android:progressDrawable="@drawable/custom_progress"
-        />
-
 </RelativeLayout>

@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.FirebaseException;
@@ -21,9 +22,9 @@ import java.util.concurrent.TimeUnit;
 
 public class OTPpage extends AppCompatActivity {
 
-    EditText editText1;
-    Button sendotp;
-    ProgressBar progressBar;
+  //  EditText editText1;
+  //  Button sendotp;
+   // ProgressBar progressBar;
 
 
     @Override
@@ -31,9 +32,12 @@ public class OTPpage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_otppage);
 
-        editText1=findViewById(R.id.input_mob_no);
-        sendotp=findViewById(R.id.btnsend);
-        progressBar=findViewById(R.id.probar1);
+
+
+
+       EditText editText1 = findViewById(R.id.input_mob_no);
+       Button sendotp = findViewById(R.id.btnsend);
+      ProgressBar  progressBar = findViewById(R.id.probar1);
 
         sendotp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,6 +100,15 @@ public class OTPpage extends AppCompatActivity {
             }
         });
 
+
+        TextView skip = findViewById(R.id.skipbut);
+        skip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(OTPpage.this,gender.class);
+                startActivity(i);
+            }
+        });
 
 
     }
