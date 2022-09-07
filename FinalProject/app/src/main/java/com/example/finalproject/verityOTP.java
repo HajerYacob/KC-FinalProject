@@ -154,6 +154,11 @@ public class verityOTP extends AppCompatActivity {
                 );
 
             }
+
+
+            ///message
+
+
         });
 
         movenumtonext(); //move num to next
